@@ -1,0 +1,4 @@
+flask 
+flask_restful 
+google-api-python-client
+nltk
