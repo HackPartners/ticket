@@ -2,6 +2,7 @@
 from flask import Flask
 from flask_restful import Api
 from resources.ticket2text import Ticket2TextResource
+from resources.verifier import VerifierResource
 
 # Version
 major = 0
@@ -21,6 +22,7 @@ def after_request(response):
 prefix = '/ticket/' + str(major) + '.' + str(minor)
 
 api.add_resource(Ticket2TextResource, prefix+'/image')
+api.add_resource(VerifierResource, prefix+'/verify')
 
 
 if __name__ == '__main__':

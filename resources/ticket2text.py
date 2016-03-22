@@ -15,6 +15,7 @@ query_parser.add_argument(
 class Ticket2TextResource(Resource):
 
     def post(self):
+        print("starting...")
 
         response = {}
         args = query_parser.parse_args()
@@ -31,6 +32,7 @@ class Ticket2TextResource(Resource):
         ticket = extract_ticket_from_list(text_list)
 
         response["ticket"] = ticket
+        print("finishing:", ticket)
 
         return response
 

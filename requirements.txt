@@ -3,3 +3,5 @@ flask_restful
 google-api-python-client
 nltk
 image
+fuzzywuzzy
+python-Levenshtein

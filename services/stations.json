@@ -1,6 +1,6 @@
 [
 	{ "display": "Manchester Stns" },
-	{ "display": "London Stns" },
+	{ "display": "London Terminals" },
 	{ "display": "Birmingham Stns" },
 	{ "display": "Oxford" },
 	{ "display": "Glasgow Central" },
@@ -12,7 +12,6 @@
 	{ "display": "Penrith North Lakes" },
 	{ "display": "Oxenholme Lake District" },
 	{ "display": "Lancaster" },
-	{ "display": "Preston" },
 	{ "display": "Kirkham & Westham" },
 	{ "display": "Poulton-le-Fylde" },
 	{ "display": "Blackpool North" },
